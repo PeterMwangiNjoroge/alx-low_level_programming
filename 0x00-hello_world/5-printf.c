@@ -1,6 +1,6 @@
 /*
  * File: 5-printf.c
- * Auth: Peter Njoroge
+ * Author: Peter Njoroge
  */
 
 #include <stdio.h>
