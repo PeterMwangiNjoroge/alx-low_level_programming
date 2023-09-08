@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Author: Peter Njororge
+ * Author: Peter Njoroge
  */
 
 #include <stdlib.h>
