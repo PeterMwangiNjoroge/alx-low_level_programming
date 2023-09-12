@@ -6,11 +6,11 @@
 #include "main.h"
 
 /**
-* main - prints alphabet in lower case 10 times
+* print_alphabet_x10 - prints alphabet in lower case 10 times
 *
 * Return: Always 0.
 */
-int main(void)
+void print_alphabet_x10(void)
 {
 	char l;
 
@@ -24,6 +24,4 @@ int main(void)
 		}
 		putchar('\n');
 	}
-
-	return (0);
 }
