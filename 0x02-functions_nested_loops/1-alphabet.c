@@ -3,7 +3,7 @@
 * Author: Peter Njoroge
 */
 
-#include <main.h>
+#include "main.h"
 
 /**
 * print_alphabet - prints alphabet in lower case
