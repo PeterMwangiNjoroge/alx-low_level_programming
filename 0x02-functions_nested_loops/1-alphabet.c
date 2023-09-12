@@ -1,5 +1,5 @@
 /*
-* File: 2-print_alphabet.c
+* File: 1-alphabet.c
 * Author: Peter Njoroge
 */
 
@@ -18,9 +18,9 @@ void print_alphabet(void)
 
 	for (l = 'a'; l <= 'z'; l++)
 	{
-		putchar(l);
+		_putchar(l);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
 /**
