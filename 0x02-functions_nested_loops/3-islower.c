@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
-* _islower - prints alphabet in lower case 10 times
+* _islower - checks if lower case or not.
 * @c: argument to be checked
 * Return: 1 if lower, 0 if not
 */
