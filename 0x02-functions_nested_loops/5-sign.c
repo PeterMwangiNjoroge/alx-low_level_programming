@@ -6,10 +6,11 @@
 #include "main.h"
 
 /**
-* _abs - computes the absolute value of an integer
-* @n: argument to be checked
-* Return:   int, abs value of supplied arg.
-*/
+ * _abs - Computes the absolute value of an integer.
+ * @n: The integer to be computed.
+ *
+ * Return: absolute value of n.
+ */
 int _abs(int n)
 {
 	if (n >= 0)
