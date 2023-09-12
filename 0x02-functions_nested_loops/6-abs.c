@@ -1,5 +1,5 @@
 /*
-* File: 5-sign.c
+* File: 6-abs.c
 * Author: Peter Njoroge
 */
 
