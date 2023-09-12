@@ -4,6 +4,7 @@
 */
 
 #include "main.h"
+#include <stdio.h>
 
 /**
 * _abs - Computes the absolute value of an integer.
