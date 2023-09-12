@@ -1,5 +1,5 @@
 /*
-* File: 3-4-isalpha.c
+* File: 4-isalpha.c
 * Author: Peter Njoroge
 */
 
