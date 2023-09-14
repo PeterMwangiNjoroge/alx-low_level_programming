@@ -1,3 +1,8 @@
+/*
+* File: 4-puts.c
+* Author: Peter Njoroge
+*/
+
 #include "main.h"
 
 /**
