@@ -1,8 +1,3 @@
-/*
-* File: 0-isupper.c
-* Author: Peter Njoroge
-*/
-
 #include "main.h"
 
 /**
