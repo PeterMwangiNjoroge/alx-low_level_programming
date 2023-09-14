@@ -1,4 +1,3 @@
-
 /*
 * File: 2-mul.c
 * Author: Peter Njoroge
