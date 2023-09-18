@@ -18,6 +18,7 @@ void print_rev(char *s)
 	while (s[pointer] != '\0')
 		pointer++;
 
+	length = pointer;
 	for (count = length - 1; count >= 0; count--)
 	{
 		_putchar(s[count]);
