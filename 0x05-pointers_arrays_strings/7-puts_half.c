@@ -28,6 +28,7 @@ void puts_half(char *str)
 	{
 		counter = (length / 2);
 	}
+	counter++;
 
 	for (length = counter; str[length] != '\0'; length++)
 	{
