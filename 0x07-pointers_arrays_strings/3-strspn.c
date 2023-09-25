@@ -3,7 +3,6 @@
 * Author: Peter Njoroge
 */
 
-#include <stdio.h>
 #include "main.h"
 
 /**
