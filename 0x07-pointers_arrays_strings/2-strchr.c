@@ -27,5 +27,10 @@ char *_strchr(char *s, char c)
 		}
 	}
 
+	if (c == '\n')
+	{
+		return (s);
+	}
+
 	return (NULL);
 }
