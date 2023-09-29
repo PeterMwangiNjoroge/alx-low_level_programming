@@ -1,5 +1,5 @@
 /*
-* File: 1-args.c
+* File: 2-args.c
 * Author: Peter Njoroge
 */
 
@@ -12,10 +12,14 @@
 *  Return: int
 */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	(void)argv;
+	int i;
 
-	printf("%d\n", argc - 1);
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
 	return (0);
 }
