@@ -1,30 +1,33 @@
 /*
-* File: 1-print_numbers.c
+* File: 2-print_strings.c
 * Author: Peter Njoroge
 */
 
 #include "variadic_functions.h"
 
 /**
- * print_numbers - prints numbers followed by a new line
- * @n: int
+ * print_strings - prints strings, followed by a new line
  * @separator: char pointer
- * Return: Always int
+ * @n: unsigned int
+ * Return: nothing
  */
 
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
+	char *str;
 	unsigned int i;
 	va_list ap;
 
 	va_start(ap, n);
-
 	if (separator == NULL)
 		separator = "";
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", va_arg(ap, int));
+		str = va_arg(ap, char*);
+		if (str == NULL)
+			str = "(nil)";
+		printf("%s", str);
 		if (i < n - 1)
 			printf("%s", separator);
 	}
