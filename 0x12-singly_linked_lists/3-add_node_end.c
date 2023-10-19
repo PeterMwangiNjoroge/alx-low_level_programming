@@ -16,7 +16,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	int length = 0;
 
-	list_t *new_node, *temp_node = head;
+	list_t *new_node, *temp_node = *head;
 
 	while (str[length] != '\0')
 	{
