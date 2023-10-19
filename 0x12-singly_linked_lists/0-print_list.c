@@ -1,5 +1,5 @@
 /*
-* File: 2-print_strings.c
+* File: 0-print_list.c
 * Author: Peter Njoroge
 */
 
