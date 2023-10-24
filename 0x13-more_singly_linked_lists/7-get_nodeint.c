@@ -23,12 +23,5 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 		counter++;
 	}
 
-	if (counter == 0)
-	{
-		return (NULL);
-	}
-	else
-	{
-		return (l_list);
-	}
+	return (l_list ? l_list : NULL);
 }
