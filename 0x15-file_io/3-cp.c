@@ -32,14 +32,12 @@ void close_t(int fd_from, int fd_to)
 	{
 		char fd_str[20];
 
-		sprintf(fd_str, "%d", fd_from);
 		error_exit(100, "Error: Can't close fd %s\n", fd_str);
 	}
 	if (close(fd_to) == -1)
 	{
 		char fd_str[20];
 
-		sprintf(fd_str, "%d", fd_to);
 		error_exit(100, "Error: Can't close fd %s\n", fd_str);
 	}
 }
