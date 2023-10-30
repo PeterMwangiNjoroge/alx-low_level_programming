@@ -7,8 +7,10 @@
 #include "main.h"
 
 /**
-* get_endianness - checks the endianness.
-* Return: 0 if big endian, 1 if little endian
+* read_textfile - reads a text file and prints it to the POSIX standard output.
+* @filename: pointer to file
+* @letters: file_to_read
+* Return: file contents
 */
 
 ssize_t read_textfile(const char *filename, size_t letters)
